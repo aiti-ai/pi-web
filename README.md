@@ -10,6 +10,13 @@ This repository is a placeholder. The workbench itself — the `@aiti-ai/pi-web`
 - TUI bridge: [@aiti-ai/pi-web-bridge](https://github.com/aiti-ai/aiti-ai/tree/main/pi-plugins/pi-web-bridge) — bridge a pi TUI session to the workbench with `/web` (live view + bidirectional IO)
 - Site: <https://aiti.pw>
 
+### Public repositories under aiti-ai
+
+- **[aiti-ai](https://github.com/aiti-ai/aiti-ai)** — the monorepo: the AITI Web distribution (63+ bundled extensions), pi packages, and tooling (fork of upstream pi-web)
+- **[aiti-aigrdpwasm](https://github.com/aiti-ai/aiti-aigrdpwasm)** — Web-based RDP client (Go WASM); fork of [nakagami/grdpwasm](https://github.com/nakagami/grdpwasm) with xrdp/GDS/CredSSP fixes — npm package `@aiti-ai/grdpwasm`
+- **[pi-subagents](https://github.com/aiti-ai/pi-subagents)** — upstream fork of the pi extension for async subagent delegation (truncation, artifacts, session sharing)
+- **[pi-models-respect](https://github.com/aiti-ai/pi-models-respect)** — pi package: keep only the models you explicitly configured (legacy name, superseded by `@aiti-ai/pi-models-combo`)
+
 ## License
 
 MIT

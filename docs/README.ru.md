@@ -10,6 +10,13 @@
 - TUI-мост: [@aiti-ai/pi-web-bridge](https://github.com/aiti-ai/aiti-ai/tree/main/pi-plugins/pi-web-bridge) — подключение TUI-сессии pi к рабочему столу командой `/web` (живой просмотр + двусторонний ввод/вывод)
 - Сайт: <https://aiti.pw>
 
+### Публичные репозитории под aiti-ai
+
+- **[aiti-ai](https://github.com/aiti-ai/aiti-ai)** — монорепозиторий: дистрибуция AITI Web (63+ встроенных расширений), pi-пакеты и инструменты (форк апстрим- pi-web)
+- **[aiti-aigrdpwasm](https://github.com/aiti-ai/aiti-aigrdpwasm)** — веб-RDP-клиент (Go WASM); форк [nakagami/grdpwasm](https://github.com/nakagami/grdpwasm) с исправлениями xrdp/GDS/CredSSP — npm-пакет `@aiti-ai/grdpwasm`
+- **[pi-subagents](https://github.com/aiti-ai/pi-subagents)** — форк расширения pi для асинхронной делегации субагентам (усечение, артефакты, общий доступ к сессиям)
+- **[pi-models-respect](https://github.com/aiti-ai/pi-models-respect)** — pi-пакет: показывать только явно настроенные модели (старое имя, заменено на `@aiti-ai/pi-models-combo`)
+
 ## License
 
 MIT

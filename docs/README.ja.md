@@ -10,6 +10,13 @@
 - TUI ブリッジ：[@aiti-ai/pi-web-bridge](https://github.com/aiti-ai/aiti-ai/tree/main/pi-plugins/pi-web-bridge)——`/web` で pi TUI セッションをワークベンチにブリッジ（ライブ表示 + 双方向 IO）
 - サイト：<https://aiti.pw>
 
+### aiti-ai 配下の公開リポジトリ
+
+- **[aiti-ai](https://github.com/aiti-ai/aiti-ai)** —— モノレポ本体：AITI Web ディストリビューション（63 以上のバンドル拡張機能）、pi パッケージ、ツール群（上流 pi-web のフォーク）
+- **[aiti-aigrdpwasm](https://github.com/aiti-ai/aiti-aigrdpwasm)** —— Web 版 RDP クライアント（Go WASM）；[nakagami/grdpwasm](https://github.com/nakagami/grdpwasm) のフォークで、xrdp/GDS/CredSSP の修正を含む——npm パッケージ `@aiti-ai/grdpwasm`
+- **[pi-subagents](https://github.com/aiti-ai/pi-subagents)** —— 非同期サブエージェント委譲用 pi 拡張の上流フォーク（トランケーション・アーティファクト・セッション共有）
+- **[pi-models-respect](https://github.com/aiti-ai/pi-models-respect)** —— pi パッケージ：明示的に設定したモデルだけを表示（旧名称、`@aiti-ai/pi-models-combo` に統合）
+
 ## License
 
 MIT
