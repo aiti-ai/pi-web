@@ -1,23 +1,14 @@
 # pi-web
 
-The open-source web workbench for [pi](https://pi.dev) — the coding agent from Earendil Works. **aiti-agent**, a self-hosted AI development workbench with the browser as its primary surface, is built on pi-web.
+[中文文档](https://github.com/aiti-ai/pi-web/blob/main/docs/README.zh-CN.md) | [日本語](https://github.com/aiti-ai/pi-web/blob/main/docs/README.ja.md) | [Русский](https://github.com/aiti-ai/pi-web/blob/main/docs/README.ru.md)
 
-pi-web 的开源工作台 —— [pi](https://pi.dev)（Earendil Works 出品的编码 agent）的浏览器工作台。**aiti-agent**（自托管 AI 开发工作台，浏览器为主操作面）基于 pi-web 构建。
+**AITI Web** (`@aiti-ai/pi-web`) is a browser workbench for the [pi coding agent](https://github.com/earendil-works/pi) — and the base of the [aiti](https://aiti.pw/) tooling ecosystem: page-injected debugging tools, an MCP bridge for AI agents, and a large library of bundled extensions.
 
-## Where everything actually lives · 实际内容所在
+This repository is a placeholder. The workbench itself — the `@aiti-ai/pi-web` distribution (an upstream [pi-web](https://github.com/agegr/pi-web) fork that ships 63+ bundled extensions), its documentation, and the whole aiti ecosystem (extensions, pi packages, tooling) — lives in the **[aiti-ai/aiti-ai](https://github.com/aiti-ai/aiti-ai)** monorepo:
 
-This repository is a placeholder. The aiti ecosystem — extensions, pi packages, tooling, and the workbench integration — lives in the **[aiti-ai/aiti-ai](https://github.com/aiti-ai/aiti-ai)** monorepo:
-
-- **[@aiti-ai/pi-web-bridge](https://github.com/aiti-ai/aiti-ai/tree/main/pi-plugins/pi-web-bridge)** — bridge a pi TUI session to this workbench with `/web` (live view + bidirectional IO)
-- Extensions (`extensions/`), pi packages (`pi-plugins/`), and the aiti-devtools family (`packages/`)
-
-本仓库为占位说明页。aiti 生态——扩展、pi 包、工具链与工作台集成——全部在 **[aiti-ai/aiti-ai](https://github.com/aiti-ai/aiti-ai)** monorepo 中。
-
-## Ecosystem · 生态
-
-- Monorepo · 生态仓库: <https://github.com/aiti-ai/aiti-ai>
-- pi engine · pi 引擎: <https://github.com/earendil-works/pi-coding-agent> · <https://pi.dev>
-- Site · 官网: <https://aiti.pw>
+- Workbench (install, docs, source): <https://github.com/aiti-ai/aiti-ai>
+- TUI bridge: [@aiti-ai/pi-web-bridge](https://github.com/aiti-ai/aiti-ai/tree/main/pi-plugins/pi-web-bridge) — bridge a pi TUI session to the workbench with `/web` (live view + bidirectional IO)
+- Site: <https://aiti.pw>
 
 ## License
 
